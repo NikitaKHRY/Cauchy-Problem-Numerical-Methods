@@ -1,0 +1,41 @@
+# Cauchy Problem Solver
+
+This project is a Python desktop application for solving first-order ordinary differential equations (Cauchy initial value problems) using several numerical methods.
+
+## Features
+
+- Solve first-order ODE initial value problems.
+- Supports three numerical methods:
+  - Euler Method
+  - Runge–Kutta 4th Order (RK4)
+  - Adams–Bashforth 4-Step Method
+- Interactive graphical interface built with Tkinter.
+- Mathematical expression parsing using SymPy.
+- Automatic plotting of numerical solutions with Matplotlib.
+- Load input parameters from a text file.
+- Input validation and error handling.
+- Display computed solution points for each numerical method.
+
+## Technologies
+
+- Python
+- Tkinter
+- NumPy
+- SymPy
+- Matplotlib
+
+## Input Parameters
+
+- Differential equation `f(x, y)`
+- Initial point `x₀`
+- Initial value `y₀`
+- Final point `xₖ`
+- Step size `h`
+
+## Output
+
+The program computes numerical solutions using the selected methods, displays coordinate tables, and plots the solution curves for comparison.
+
+## Purpose
+
+This project was developed as an educational implementation of classical numerical methods for solving ordinary differential equations and demonstrates their practical application through an intuitive graphical interface.
